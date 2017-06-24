@@ -1,0 +1,77 @@
+swagger: "2.0"
+host: localhost:8080
+basePath: /v1
+info:
+  description: "This is a sample Data Universe server."
+  version: "1.0.0"
+  title: "Data Universe"
+  license:
+    name: "MIT"
+  contact:
+    name: "datumgeek"
+    url: "https://github.com/datumgeek"
+    email: "datumgeek@yahoo.com"
+schemes:
+  - http
+consumes:
+  - application/json
+produces:
+  - application/json
+paths:
+  /planets:
+    get:
+      summary: Get all planets
+      operationId: listPlanets
+      tags:
+        - planet
+      parameters:
+        - name: take
+          in: query
+          description: number of planets to return
+          required: false
+          type: integer
+          format: int32
+        - name: skip
+          in: query
+          description: number of planets to skip
+          required: false
+          type: integer
+          format: int32
+        - name: sort
+          in: query
+          description: sort string in ag-grid stringified sort criteria
+          required: false
+          type: string
+      responses:
+        "200":
+          description: A paged array of planets
+          headers:
+            x-next:
+              type: string
+              description: A link to the next page of responses
+          schema:
+            type: array
+            items:
+              $ref: '#/definitions/Planet'
+        default:
+          description: unexpected error
+          schema:
+            $ref: 'Planet.yml'
+definitions:
+  Planet:
+    type: object
+    required:
+      - "name"
+      - "orderFromSun"
+    properties:
+      id:
+        type: integer
+        format: int64
+      name:
+        type: string
+      orderFromSun:
+        type: integer
+        format: int32
+      size:
+        type: number
+        format: double
