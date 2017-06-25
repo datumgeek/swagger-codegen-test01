@@ -40,6 +40,8 @@ https://plugins.jetbrains.com/plugin/8347-swagger-plugin
 
 #### modify web.xml and add associated classes
 
+![image](https://user-images.githubusercontent.com/22680176/27519254-dd26f238-59ac-11e7-9b0b-0faa605a21cd.png)
+
 ![image](https://user-images.githubusercontent.com/22680176/27518914-69d2d78e-59a7-11e7-863c-a97a61edb3bd.png)
 
 ![image](https://user-images.githubusercontent.com/22680176/27518929-c63cd27c-59a7-11e7-8318-bcc1d2930298.png)
