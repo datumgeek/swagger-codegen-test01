@@ -32,15 +32,15 @@
 
                             <!-- pass any necessary config options -->
                             <configOptions>
-                               <sourceFolder>swagger-codegen-test01/src/main/java</sourceFolder>
-                                <implFolder>swagger-codegen-test01/src/main/java</implFolder>
+                               <sourceFolder>src/main/java</sourceFolder>
+                                <implFolder>src/main/java</implFolder>
                             </configOptions>
 
                             <apiPackage>com.technicalmedia.data.universe.api</apiPackage>
                             <modelPackage>com.technicalmedia.data.universe.model</modelPackage>
                             <invokerPackage>com.technicalmedia.data.universe.invoker</invokerPackage>
 
-                            <output>..</output>
+                            <!--<output>..</output>-->
 
 
 
@@ -90,7 +90,7 @@
         <dependency>
             <groupId>io.swagger</groupId>
             <artifactId>swagger-annotations</artifactId>
-            <version>${swagger-annotations-version}</version>
+            <version>1.5.15</version>
         </dependency>
 
         <!-- You can find the dependencies for the library configuation you chose by looking in JavaClientCodegen.
@@ -170,7 +170,7 @@
     <properties>
         <swagger-annotations-version>1.5.8</swagger-annotations-version>
         <jersey-version>2.22.2</jersey-version>
-        <jackson-version>2.7.0</jackson-version>
+        <jackson-version>2.6.4</jackson-version>
         <jodatime-version>2.7</jodatime-version>
         <maven-plugin-version>1.0.0</maven-plugin-version>
         <junit-version>4.8.1</junit-version>

@@ -10,7 +10,7 @@
             <param-name>jersey.config.server.provider.packages</param-name>
             <param-value>
                 io.swagger.jaxrs.listing,
-                com.technicalmedia,
+                com.technicalmedia.data.universe.api,
                 io.swagger.client.api
             </param-value>
         </init-param>

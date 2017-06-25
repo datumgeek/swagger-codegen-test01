@@ -1,6 +1,6 @@
 swagger: "2.0"
 host: localhost:8080
-basePath: /v1
+basePath: /rest
 info:
   description: "This is a sample Data Universe server."
   version: "1.0.0"
@@ -17,6 +17,8 @@ consumes:
   - application/json
 produces:
   - application/json
+tags:
+  - planets
 paths:
   /planets:
     get:
