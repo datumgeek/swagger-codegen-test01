@@ -60,3 +60,6 @@ https://plugins.jetbrains.com/plugin/8347-swagger-plugin
 
 ![image](https://user-images.githubusercontent.com/22680176/27519134-d27a9ec2-59aa-11e7-9bd6-d27bff4aceb6.png)
 
+![image](https://user-images.githubusercontent.com/22680176/27519153-2a9909fe-59ab-11e7-8310-c6a3f190a175.png)
+
+![image](https://user-images.githubusercontent.com/22680176/27519208-10fa8daa-59ac-11e7-8428-c9ce030a2770.png)
