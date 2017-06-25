@@ -25,18 +25,27 @@
                             <inputSpec>src/main/resources/api.yaml</inputSpec>
 
                             <!-- target to generate java client code -->
-                            <language>java</language>
+                            <language>jaxrs</language>
 
-                            <!-- hint: if you want to generate java server code, e.g. based on Spring Boot,
+                            <!-- s hint: if you want to generate java server code, e.g. based on Spring Boot,
                                  you can use the following target: <language>spring</language> -->
 
                             <!-- pass any necessary config options -->
                             <configOptions>
-                                <dateLibrary>joda</dateLibrary>
+                               <sourceFolder>swagger-codegen-test01/src/main/java</sourceFolder>
+                                <implFolder>swagger-codegen-test01/src/main/java</implFolder>
                             </configOptions>
 
+                            <apiPackage>com.technicalmedia.data.universe.api</apiPackage>
+                            <modelPackage>com.technicalmedia.data.universe.model</modelPackage>
+                            <invokerPackage>com.technicalmedia.data.universe.invoker</invokerPackage>
+
+                            <output>..</output>
+
+
+
                             <!-- override the default library to jersey2 -->
-                            <library>jersey2</library>
+                            <!-- <library>jersey2</library> -->
                         </configuration>
                     </execution>
                 </executions>

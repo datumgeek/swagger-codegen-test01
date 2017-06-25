@@ -19,4 +19,5 @@ public class ApiOriginFilter implements javax.servlet.Filter {
     public void destroy() {}
 
     public void init(FilterConfig filterConfig) throws ServletException {}
+
 }
