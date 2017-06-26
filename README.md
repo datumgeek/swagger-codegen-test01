@@ -76,6 +76,8 @@ Swagger UI is a web app that works from a swagger.json file (this file is alread
 
 ![image](https://user-images.githubusercontent.com/22680176/27526138-11e9a1f6-5a01-11e7-8d9e-c127749ab18e.png)
 
+![image](https://user-images.githubusercontent.com/22680176/27526303-0a29e628-5a02-11e7-8e26-ca3488baa5d9.png)
+
 Let's get our Swagger UI implemented:
 
 #### First, Obtain the Swagger UI (static) web files 
