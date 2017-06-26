@@ -2,6 +2,8 @@
 
 Generating REST web api service from api.yaml using maven plugin
 
+### See Also: [Java Jersey REST Swagger Angular4+ Recipe](https://github.com/datumgeek/jersey-rest-test03/blob/master/README.md#java-jersey-rest-swagger-angular4-recipe)
+
 ### create the swagger specs
 
 #### download swagger plugin for IntelliJ
