@@ -39,13 +39,6 @@
                             <apiPackage>com.technicalmedia.data.universe.api</apiPackage>
                             <modelPackage>com.technicalmedia.data.universe.model</modelPackage>
                             <invokerPackage>com.technicalmedia.data.universe.invoker</invokerPackage>
-
-                            <!--<output>..</output>-->
-
-
-
-                            <!-- override the default library to jersey2 -->
-                            <!-- <library>jersey2</library> -->
                         </configuration>
                     </execution>
                 </executions>

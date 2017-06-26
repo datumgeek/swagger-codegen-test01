@@ -18,7 +18,8 @@ public class SwaggerBootstrap extends HttpServlet {
         beanConfig.setTitle("API Howto");
         beanConfig.setHost("localhost:8080");
         beanConfig.setBasePath("/rest");
-        beanConfig.setResourcePackage("com.technicalmedia.data.universe.api");
+        beanConfig.setResourcePackage(
+                "com.technicalmedia.data.universe.api");
         beanConfig.setFilterClass(
                 "com.technicalmedia.AllAuthorizationFilterImpl");
         beanConfig.setScan(true);

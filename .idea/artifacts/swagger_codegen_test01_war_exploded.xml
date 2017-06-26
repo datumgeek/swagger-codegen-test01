@@ -52,6 +52,9 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.module:jackson-module-jaxb-annotations:2.6.4" />
         </element>
       </element>
+      <element id="directory" name="swagger">
+        <element id="dir-copy" path="$PROJECT_DIR$/src/main/swagger" />
+      </element>
     </root>
   </artifact>
 </component>
