@@ -96,6 +96,12 @@ Copy them to the `src/main/swagger` folder.
 
 ![image](https://user-images.githubusercontent.com/22680176/27507685-5eed70a2-5891-11e7-9dbd-1ccdfe09d694.png)
 
-#### We can copy the curl command and run it in the bash shell
+#### Once we have swagger running, we can copy the curl command and run it in the bash shell
 
 ![image](https://user-images.githubusercontent.com/22680176/27526175-5768eff2-5a01-11e7-9b3f-5c1f31847895.png)
+
+### Next Steps:
+
+Note: the next logical step is to add the real implementation to the (generated) PlanetsApiServiceImpl.java class, returning a list of planet objects, but I haven't figured out how to do that and still support regenerating the web api from the .yaml to reflect ongoing changes to the web api.
+
+It is possible to do manually, but there must be a better way.  Please stay tuned... :smile:
