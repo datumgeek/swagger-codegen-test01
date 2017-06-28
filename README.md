@@ -105,3 +105,21 @@ Copy them to the `src/main/swagger` folder.
 Note: the next logical step is to add the real implementation to the (generated) PlanetsApiServiceImpl.java class, returning a list of planet objects, but I haven't figured out how to do that and still support regenerating the web api from the .yaml to reflect ongoing changes to the web api.
 
 It is possible to do manually, but there must be a better way.  Please stay tuned... :smile:
+
+### Parent / Child --->  Planet / Moons
+
+Now we add a list of moons to the planet object.
+
+#### Here's the ***.yaml***
+
+![image](https://user-images.githubusercontent.com/22680176/27635350-d9185678-5bc3-11e7-9bd0-6b4e7ef2d29a.png)
+
+#### And the resulting Swagger API
+
+![image](https://user-images.githubusercontent.com/22680176/27635474-6311b266-5bc4-11e7-9148-a1012412e0f6.png)
+
+#### At this point, the plan is to take the generated Swagger API Java classes and start a new project [swagger-mongo-test01](https://github.com/datumgeek/swagger-mongo-test01)
+
+> this project will provide an Angular4+ client and MongoDB backend for persistence.
+
+![image](https://user-images.githubusercontent.com/22680176/27635675-3904e69a-5bc5-11e7-9e27-4217cd0bd039.png)
