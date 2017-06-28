@@ -77,3 +77,25 @@ definitions:
       size:
         type: number
         format: double
+      moons:
+        type: array
+        items:
+          $ref: "#/definitions/Moon"
+  Moon:
+    type: object
+    required:
+      - "name"
+      - "orderFromPlanet"
+    properties:
+      id:
+        type: integer
+        format: int64
+      name:
+        type: string
+      orderFromPlanet:
+        type: integer
+        format: int32
+      size:
+        type: number
+        format: double
+      
